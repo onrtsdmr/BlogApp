@@ -4,8 +4,8 @@ using OTProject.Blog.Entities.Interfaces;
 
 namespace OTProject.Blog.DataAccess.Interfaces
 {
-    public interface IGenericDal<TEntity> 
-        where TEntity: class, ITable ,new()
+    public interface IGenericDal<TEntity>
+        where TEntity : class, ITable, new()
     {
         Task<List<TEntity>> GetAll();
         Task<TEntity> GetById(int id);

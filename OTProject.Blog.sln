@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTProject.Blog.Business", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTProject.Blog.Entities", "OTProject.Blog.Entities\OTProject.Blog.Entities.csproj", "{397ABF46-824F-47BE-BAEB-E14E349A4AC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTProject.Blog.DTO", "OTProject.Blog.DTO\OTProject.Blog.DTO.csproj", "{D639FF56-EE29-4222-9B89-D5C0A5C1A41F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{397ABF46-824F-47BE-BAEB-E14E349A4AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{397ABF46-824F-47BE-BAEB-E14E349A4AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{397ABF46-824F-47BE-BAEB-E14E349A4AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D639FF56-EE29-4222-9B89-D5C0A5C1A41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D639FF56-EE29-4222-9B89-D5C0A5C1A41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D639FF56-EE29-4222-9B89-D5C0A5C1A41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D639FF56-EE29-4222-9B89-D5C0A5C1A41F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

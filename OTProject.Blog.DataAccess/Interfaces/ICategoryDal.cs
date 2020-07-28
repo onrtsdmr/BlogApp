@@ -2,8 +2,7 @@
 
 namespace OTProject.Blog.DataAccess.Interfaces
 {
-    public interface ICategoryDal: IGenericDal<Category>
+    public interface ICategoryDal : IGenericDal<Category>
     {
-        
     }
 }
