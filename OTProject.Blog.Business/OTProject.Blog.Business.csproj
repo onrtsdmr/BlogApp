@@ -8,4 +8,11 @@
       <ProjectReference Include="..\OTProject.Blog.DataAccess\OTProject.Blog.DataAccess.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Concrete" />
+      <Folder Include="Containers\MicrosoftIoC" />
+      <Folder Include="FluentValidation" />
+      <Folder Include="Interfaces" />
+    </ItemGroup>
+
 </Project>
