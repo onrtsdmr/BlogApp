@@ -1,0 +1,20 @@
+<div class="container" style="margin-top: 80px;">
+  <div class="row">
+    <div class="col-sm-2">
+      <h1>ID</h1>
+    </div>
+    <div class="col-sm-10">
+      <h1>Category Name</h1>
+    </div>
+  </div>
+  <div *ngFor="let item of categories" class="list-group mt-5">
+    <div class="row">
+      <div class="col-sm-2">
+        <p>{{item.id}}</p>
+      </div>
+      <div class="col-sm-10">
+        <a [routerLink]="categories" class="list-group-item list-group-item-action list-group-item-primary">{{item.name}}</a>
+      </div>
+    </div>
+  </div>
+</div>

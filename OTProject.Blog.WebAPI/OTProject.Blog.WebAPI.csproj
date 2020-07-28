@@ -13,11 +13,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AlertifyJS" Version="1.13.1" />
         <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.5" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6" />
-        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.6" />
     </ItemGroup>
 
     <ItemGroup>
@@ -30,9 +28,7 @@
     <ItemGroup>
       <Folder Include="ClientApp\src\app\components" />
       <Folder Include="ClientApp\src\app\guards" />
-      <Folder Include="ClientApp\src\app\models" />
       <Folder Include="ClientApp\src\app\services" />
-      <Folder Include="Controllers" />
     </ItemGroup>
 
     <ItemGroup>
