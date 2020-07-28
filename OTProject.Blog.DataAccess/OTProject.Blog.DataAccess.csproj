@@ -5,15 +5,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\OTProject.Blog.Entities\OTProject.Blog.Entities.csproj" />
+        <ProjectReference Include="..\OTProject.Blog.Entities\OTProject.Blog.Entities.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Concrete\Dapper" />
-      <Folder Include="Concrete\EfCore\Context" />
-      <Folder Include="Concrete\EfCore\Mapping" />
-      <Folder Include="Concrete\EfCore\Repositories" />
-      <Folder Include="Interfaces" />
+        <Folder Include="Concrete\Dapper" />
+        <Folder Include="Concrete\EfCore\Mapping" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6" />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.2" />
     </ItemGroup>
 
 </Project>
